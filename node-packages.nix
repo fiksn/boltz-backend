@@ -3173,13 +3173,13 @@ let
         sha512 = "qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==";
       };
     };
-    "sequelize-6.28.2" = {
+    "sequelize-6.29.0" = {
       name = "sequelize";
       packageName = "sequelize";
-      version = "6.28.2";
+      version = "6.29.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sequelize/-/sequelize-6.28.2.tgz";
-        sha512 = "MpK2h7xXHhBcwyTDf1sM1mrDdKFTGYbmrAC+4bJAf6f9Tp2IuiNwbNPj6Q5rMGVsKnO0CiJm8PEKtyNLOY8rNg==";
+        url = "https://registry.npmjs.org/sequelize/-/sequelize-6.29.0.tgz";
+        sha512 = "m8Wi90rs3NZP9coXE52c7PL4Q078nwYZXqt1IxPvgki7nOFn0p/F0eKsYDBXCPw9G8/BCEa6zZNk0DQUAT4ypA==";
       };
     };
     "sequelize-pool-7.1.0" = {
@@ -4301,7 +4301,7 @@ let
           sources."ms-2.1.3"
         ];
       })
-      (sources."sequelize-6.28.2" // {
+      (sources."sequelize-6.29.0" // {
         dependencies = [
           sources."semver-7.3.7"
         ];
